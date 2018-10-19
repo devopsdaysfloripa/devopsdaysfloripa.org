@@ -1,0 +1,14 @@
+baseurl = "http://devopsdaysfloripa.org"
+languageCode = "pt-BR"
+title = "DevOpsDays Florianópolis 2018"
+contentdir = "content/"
+publishdir = "public/"
+
+[params]
+    locale = "pt-BR"
+
+[taxonomies]
+  sponsor = "sponsors"
+  speaker = "speakers"
+  event = "events"
+  day = "days"

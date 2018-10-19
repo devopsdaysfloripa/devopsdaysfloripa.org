@@ -1,0 +1,35 @@
+<section class="highlight" id="venue">
+
+  <div class="container">
+    <div class="section-title">
+      <h4>
+        {{ ( index $.Site.Data.translations $.Site.Params.locale ).venue}}
+      </h4>
+    </div>
+    <div class="highlight">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="contact-box">
+              <p><strong>{{ ( index $.Site.Data.translations $.Site.Params.locale ).conference }}</strong>
+                <br>Auditório da Softplan
+                <br>Av. Luiz Boiteux Piazza, Nº 1302 
+		<br>Cachoeira do Bom Jesus - Florianópolis, SC
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-6 left-images">
+                <img src="images/place/softplan-fachada.jpg" alt="sofptlan fachada" class="img-responsive">
+              </div>
+              <div class="col-sm-6 right-images">
+                <img src="images/place/softplan-auditorio.jpg" alt="sofptlan auditorio" class="img-responsive">
+              </div>
+            </div>
+          </div>
+          <!--  // end .row -->
+        </div>
+      </div>
+    </div>
+  </section>
